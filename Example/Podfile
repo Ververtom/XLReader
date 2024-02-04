@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XLReader_Example' do
+  pod 'XLReader', :path => '../'
+
+  target 'XLReader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
