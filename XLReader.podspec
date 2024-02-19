@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ververtom/XLReader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'XLReader/Classes/**/*'
+  s.public_header_files = 'XLReader/Classes/DHxlsReader/DHxlsReader/*.h'
+  s.libraries = 'iconv.2','z'
   
   # s.resource_bundles = {
   #   'XLReader' => ['XLReader/Assets/*.png']

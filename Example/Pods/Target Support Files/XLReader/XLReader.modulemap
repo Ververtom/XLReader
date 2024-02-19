@@ -1,0 +1,6 @@
+framework module XLReader {
+  umbrella header "XLReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

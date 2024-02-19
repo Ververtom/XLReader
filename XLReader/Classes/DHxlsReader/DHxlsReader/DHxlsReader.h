@@ -31,27 +31,33 @@
 
 #import "DHcell.h"
 
+enum {DHWorkSheetNotFound = UINT32_MAX};
+
+
 @interface DHxlsReader : NSObject
 
-+ (DHxlsReader *)xlsReaderFromFile:(NSString *)filePath;
++ (DHxlsReader *)xlsReaderWithPath:(NSString *)filePath;
+
++ (DHxlsReader *)xlsReaderFromFile:(NSString *)filePath DEPRECATED_ATTRIBUTE; // The name of this method doesn’t match conventions.
 
 - (NSString *)libaryVersion;
 
 // Sheet Information
-- (NSUInteger)numberOfSheets;
-- (NSString *)sheetNameAtIndex:(NSUInteger)index;
+- (uint32_t)numberOfSheets;
+- (NSString *)sheetNameAtIndex:(uint32_t)index;
+- (uint16_t)rowsForSheetAtIndex:(uint32_t)idx;
 - (BOOL)isSheetVisibleAtIndex:(NSUInteger)index;
+- (uint16_t)numberOfRowsInSheet:(uint32_t)sheetIndex;
+- (uint16_t)numberOfColsInSheet:(uint32_t)sheetIndex;
 
 // Random Access
-- (DHcell *)cellInWorkSheetIndex:(NSUInteger)sheetNum row:(uint16_t)row col:(uint16_t)col;		// uses 1 based indexing!
-- (DHcell *)cellInWorkSheetIndex:(NSUInteger)sheetNum row:(uint16_t)row colStr:(char *)col;		// "A"...."Z" "AA"..."ZZ"
+- (DHcell *)cellInWorkSheetIndex:(uint32_t)sheetNum row:(uint16_t)row col:(uint16_t)col;        // uses 1 based indexing!
+- (DHcell *)cellInWorkSheetIndex:(uint32_t)sheetNum row:(uint16_t)row colStr:(char *)col;        // "A"...."Z" "AA"..."ZZ"
 
 // Iterate through all cells
-- (void)startIterator:(NSUInteger)sheetNum;
+- (void)startIterator:(uint32_t)sheetNum;
 - (DHcell *)nextCell;
 
--(int)getRows;
--(int)getCols;
 // Summary Information
 - (NSString *)appName;
 - (NSString *)author;

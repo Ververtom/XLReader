@@ -82,9 +82,9 @@
 	default:			name = "cellUnknown";	break;
 	}
 
-//	[s appendString:@"====================\n"];
-//	[s appendFormat:@"CellType: %s row=%u col=%s/%u\n", name, row, colString, col];
-//	[s appendFormat:@"   string:    %@\n", str];
+	[s appendString:@"====================\n"];
+	[s appendFormat:@"CellType: %s row=%u col=%s/%u\n", name, row, colString, col];
+	[s appendFormat:@"   string:    %@\n", str];
 	
 	switch(type) {
 	case cellInteger:	[s appendFormat:@"     long:    %ld\n",	[val longValue]];	break;
