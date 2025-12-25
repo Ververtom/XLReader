@@ -318,7 +318,9 @@
         break;
     }
     
-    if(!content.str) {
+    if (content.type == cellFloat) {
+        content.str = [NSString stringWithFormat:@"%.15g", cell->d];
+    } else if (!content.str) {
         content.str = [NSString stringWithCString:(char *)cell->str encoding:NSUTF8StringEncoding];
     }
     // NSLog(@"GOING TO PRINT STRING");
