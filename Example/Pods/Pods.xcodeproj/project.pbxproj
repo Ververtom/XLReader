@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10241A66C29F10F64BB238A3FE7959CF /* brdb.c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F52F54FD32310CB7F34A2538D191107 /* brdb.c.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1257606661CE912688E3AABAE7828D5C /* xlstool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3326B8C7F0B5205AC65E0A11730B7E38 /* xlstool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F11AE05BB0229D41FB97F6764EB2B2A /* Pods-XLReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A0B0ADD382C62802E25EC656EC80E /* Pods-XLReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232599CC0A3501FA6563399C999FCC5C /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 87DED4D1C302D6934A3C72C136B187B9 /* xls2csv.c */; };
-		294BB5993197F8CD5BA27F4912485892 /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = 829AF4043077863FD9257331996BFA16 /* endian.c */; };
-		39810E5326FC14816B4A4CEB3DFD7F7E /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DF389E501379E89AFD90F244F3F9521B /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3F907E15FBBD0FBD721CF8A1C147433E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3FA1D7F83F38600C9C75010EFC39A61C /* XLReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25676160DB25767271F6C8005752187 /* XLReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		446F769485AB66144FD8604CBC6CFF10 /* ole.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA1061034FA8298C1BAAD739AF8F26C /* ole.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		592069E928C28C220467B53FEF89FCC8 /* DHcell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654DB9996971BFA179E146709D56BF6 /* DHcell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F8447E7C062B8D58274ECE123C534B /* XLReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC25F3C932BE0ADF7AE3D19B8F34776 /* XLReader-dummy.m */; };
-		7727E475B4583B918FC03D40454D603D /* xlstypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 286E75E620E2BB1C359EDE3D2A980A96 /* xlstypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C038876D1B67E2D3EE7F04DC61FFE38 /* DHcell-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 625101B6785DECF914FD572A74CC811E /* DHcell-Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D196A84919955E91C59FE6B4D715DF9 /* DHxlsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D53FB6BB5AC55FDDAC86206C20B75E /* DHxlsReader.m */; };
-		9EFA6D8CAE6DCFEB6EC99495A45EB1F3 /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = C96F24863116037C7BB842036A8EF041 /* DHcell.m */; };
-		A05BE576CF82607E6BC0BB6F0582D029 /* xls.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B3EFA109246DA572F9A960F4ED5816 /* xls.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A69CC335BD94D3F2D8DAE6A903CCD74A /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F00F2E04EB88BC0C24F218C1503D2E9 /* xlstool.c */; };
-		AF7A3A9118C281E4FD41BED9443E7CB1 /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 880C80E301912C887ED6DB822A82F700 /* endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B1AC44E227094573788C39AD50AB51BB /* Pods-XLReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24844E9BD157CD3CBB0EA24C743B8FC /* Pods-XLReader_Tests-dummy.m */; };
-		BA34E94355B006B788399F0197A14EC5 /* DHxlsReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F98E965EA5EDF02B5A95C7CC1B6CEC72 /* DHxlsReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD22AF18BA34BB7E1A11004A52F39322 /* brdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B1C6403648CE7156634A58DEAA4C48 /* brdb.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C53A4701EB540A95C343319A9C73E94D /* Pods-XLReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C52460A2B75CFD2D71222157AB65B1B /* Pods-XLReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5C0AF1D4D8B69AA7C5C0AD40F7E7CCF /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3683B7225C025817135E642ECF88C69B /* getopt.c */; };
-		C6159BCB16F5CCD8EED80FE0BB89CECF /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = A62D52BD905A6A833C44E71A7E9F07D9 /* ole.c */; };
-		CA3E43F11F6CBC40DC5CFA60E23C9F46 /* xlsstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEC63D125052993AD10BBDAAD9A90F2 /* xlsstruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB4BC60C1D16CA236FF4048C877023AB /* Pods-XLReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D225CD05DA3FFE0DC29FC8419D6294C /* Pods-XLReader_Example-dummy.m */; };
-		D66F2FC3A3DB04A3F2CF78B0B4CCEAC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F73F8C63EDE39EAC6BFF5C6C65D7F8BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FC4801735B30535010D1D299E0884ABF /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 78D1501991BFF10AE33C63C8E6A63A5D /* xls.c */; };
+		0B103C22624543AF8980BD384F72653A /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = C96F24863116037C7BB842036A8EF041 /* DHcell.m */; };
+		1D31CB53FA65A413E9AAC2E205ED2F71 /* xlstool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3326B8C7F0B5205AC65E0A11730B7E38 /* xlstool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22A00B8A29AB8D46BD35D4952F577FFF /* Pods-XLReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7A0B0ADD382C62802E25EC656EC80E /* Pods-XLReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250E4BCF0C80271D54ED524DC02B5D37 /* DHcell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654DB9996971BFA179E146709D56BF6 /* DHcell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26880B1CBBFD74D7CC162731A27B0DD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		279CBD1ECFADFD10860274A18814C5B4 /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F00F2E04EB88BC0C24F218C1503D2E9 /* xlstool.c */; };
+		39A478AF16A3F076756FA2E1A89C354C /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 880C80E301912C887ED6DB822A82F700 /* endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FBBD84380244FF7DC2880643FC2C558 /* brdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B1C6403648CE7156634A58DEAA4C48 /* brdb.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47A424CC6CF08FB8711460286244A650 /* DHcell-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 625101B6785DECF914FD572A74CC811E /* DHcell-Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FD0CAF1E170754A4CA4F5EBB93387A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5ABDDC672CDCDAE2A16DE2B4C5CFB28F /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = 829AF4043077863FD9257331996BFA16 /* endian.c */; };
+		6AF2542CA45D525117B9773C7DF97BEE /* brdb.c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F52F54FD32310CB7F34A2538D191107 /* brdb.c.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B8F042FBB7925CA32A4AAE131CAE02E /* Pods-XLReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24844E9BD157CD3CBB0EA24C743B8FC /* Pods-XLReader_Tests-dummy.m */; };
+		6D842C14EF841F2D706D9B472593AC56 /* xls.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B3EFA109246DA572F9A960F4ED5816 /* xls.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7632B31EF8EB51639C1B5ED58F776BCC /* Pods-XLReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C52460A2B75CFD2D71222157AB65B1B /* Pods-XLReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5D0F8209796A80CEF10164D52CB6E6 /* XLReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC25F3C932BE0ADF7AE3D19B8F34776 /* XLReader-dummy.m */; };
+		85D0C3454B681113F24A7D97E4C17ACE /* xlsstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEC63D125052993AD10BBDAAD9A90F2 /* xlsstruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8715F6C7DF8538E66934AF5F717C7561 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3683B7225C025817135E642ECF88C69B /* getopt.c */; };
+		99295367626AC7DF3FA268863B1A87EA /* Pods-XLReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D225CD05DA3FFE0DC29FC8419D6294C /* Pods-XLReader_Example-dummy.m */; };
+		A48BA1086BD3D7D9BEF1BD55D446D632 /* XLReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25676160DB25767271F6C8005752187 /* XLReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BCC4636485B7AD4588340FD17D9702 /* DHxlsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D53FB6BB5AC55FDDAC86206C20B75E /* DHxlsReader.m */; };
+		AC9EF2FE1A0EBE16C6D5476B467B8C1C /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 87DED4D1C302D6934A3C72C136B187B9 /* xls2csv.c */; };
+		AE656A0E6DD8D504638DDD6E05BC7844 /* DHxlsReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F98E965EA5EDF02B5A95C7CC1B6CEC72 /* DHxlsReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4F3252E4D5350381C4DD866CCF7121 /* xlstypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 286E75E620E2BB1C359EDE3D2A980A96 /* xlstypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2DEE41D57A9F785F0F9E3B19277DC0A /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 78D1501991BFF10AE33C63C8E6A63A5D /* xls.c */; };
+		D02BC40103000551508B68604F8D8633 /* ole.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA1061034FA8298C1BAAD739AF8F26C /* ole.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE8CFEF846C72474E62DAAAA6592DE68 /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = A62D52BD905A6A833C44E71A7E9F07D9 /* ole.c */; };
+		F0F663BA11A2C0DF1D2B7A8FDAC075CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FF848F77F72D9ABE1C6C7CD99847BEB1 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DF389E501379E89AFD90F244F3F9521B /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A5975C7B9E1CEF2A7F31D16B90B6726 /* PBXContainerItemProxy */ = {
+		1D8244B0BA922FCA0A78AE6A94B74B0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8C34709ECDB0FAB6C7C1BE93A8213AEA;
 			remoteInfo = XLReader;
 		};
-		F4B3479BE64A78CB5D7DE66D9508F007 /* PBXContainerItemProxy */ = {
+		FBC99E364566BD5D7E19789AABCFD0D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -70,6 +70,7 @@
 		3326B8C7F0B5205AC65E0A11730B7E38 /* xlstool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
 		350062EB34AA58E6DB7A19C312899832 /* XLReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XLReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3683B7225C025817135E642ECF88C69B /* getopt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = getopt.c; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		397E9C3C8C3899D01D808DE544CE6E73 /* XLReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLReader-prefix.pch"; sourceTree = "<group>"; };
 		3D225CD05DA3FFE0DC29FC8419D6294C /* Pods-XLReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XLReader_Example-dummy.m"; sourceTree = "<group>"; };
 		41531FC2DCB9160427D6E52EA9152A39 /* XLReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLReader.modulemap; sourceTree = "<group>"; };
@@ -79,7 +80,6 @@
 		650A9B4B643A9741EFB51C943EE2FCD8 /* Pods-XLReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XLReader_Example.modulemap"; sourceTree = "<group>"; };
 		66C6475FFA84E0F216DE712A065FD553 /* Pods-XLReader_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XLReader_Tests"; path = Pods_XLReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA1061034FA8298C1BAAD739AF8F26C /* ole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78D1501991BFF10AE33C63C8E6A63A5D /* xls.c */ = {isa = PBXFileReference; includeInIndex = 1; path = xls.c; sourceTree = "<group>"; };
 		79D53FB6BB5AC55FDDAC86206C20B75E /* DHxlsReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHxlsReader.m; sourceTree = "<group>"; };
 		7DC25F3C932BE0ADF7AE3D19B8F34776 /* XLReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLReader-dummy.m"; sourceTree = "<group>"; };
@@ -111,27 +111,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		327F184A47D37B32DE97B6EE9E1E3DC3 /* Frameworks */ = {
+		3CD93BD7C4C132B85F73682AA4E32144 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73F8C63EDE39EAC6BFF5C6C65D7F8BD /* Foundation.framework in Frameworks */,
+				F0F663BA11A2C0DF1D2B7A8FDAC075CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0BDE6A4E43EA730FAE8DF81EF09715C /* Frameworks */ = {
+		43EBA9911A93B2DB8C1891EAF5589A6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66F2FC3A3DB04A3F2CF78B0B4CCEAC1 /* Foundation.framework in Frameworks */,
+				26880B1CBBFD74D7CC162731A27B0DD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A143D501DCEB738C428AD1A2E1CCEAE3 /* Frameworks */ = {
+		BF28D0773D7669EE2638336DB021B3A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F907E15FBBD0FBD721CF8A1C147433E /* Foundation.framework in Frameworks */,
+				4FD0CAF1E170754A4CA4F5EBB93387A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,14 +183,6 @@
 			);
 			name = XLReader;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		78DEA030E84EC535CCCDC6646C3EB5D3 /* DHxlsReader */ = {
@@ -284,9 +276,17 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E619EECAC4B944D24C18A2A97143BFDD /* Targets Support Files */ = {
@@ -301,39 +301,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CC4AEBA777BD5FE66B39154D4F734A4 /* Headers */ = {
+		7CC10ADD6A9B1BBEF3B4B9FBB6870701 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD22AF18BA34BB7E1A11004A52F39322 /* brdb.h in Headers */,
-				10241A66C29F10F64BB238A3FE7959CF /* brdb.c.h in Headers */,
-				39810E5326FC14816B4A4CEB3DFD7F7E /* config.h in Headers */,
-				592069E928C28C220467B53FEF89FCC8 /* DHcell.h in Headers */,
-				7C038876D1B67E2D3EE7F04DC61FFE38 /* DHcell-Private.h in Headers */,
-				BA34E94355B006B788399F0197A14EC5 /* DHxlsReader.h in Headers */,
-				AF7A3A9118C281E4FD41BED9443E7CB1 /* endian.h in Headers */,
-				446F769485AB66144FD8604CBC6CFF10 /* ole.h in Headers */,
-				3FA1D7F83F38600C9C75010EFC39A61C /* XLReader-umbrella.h in Headers */,
-				A05BE576CF82607E6BC0BB6F0582D029 /* xls.h in Headers */,
-				CA3E43F11F6CBC40DC5CFA60E23C9F46 /* xlsstruct.h in Headers */,
-				1257606661CE912688E3AABAE7828D5C /* xlstool.h in Headers */,
-				7727E475B4583B918FC03D40454D603D /* xlstypes.h in Headers */,
+				7632B31EF8EB51639C1B5ED58F776BCC /* Pods-XLReader_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B366820592B1FC70310A0CA48956298B /* Headers */ = {
+		BB4C7AAFA9C7FDF2B86C0D6157155336 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53A4701EB540A95C343319A9C73E94D /* Pods-XLReader_Tests-umbrella.h in Headers */,
+				22A00B8A29AB8D46BD35D4952F577FFF /* Pods-XLReader_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEB2E3B6890B5A3B3DF1AC9B4632D975 /* Headers */ = {
+		D62D76C12F59E486FA2C4C899C709459 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F11AE05BB0229D41FB97F6764EB2B2A /* Pods-XLReader_Example-umbrella.h in Headers */,
+				3FBBD84380244FF7DC2880643FC2C558 /* brdb.h in Headers */,
+				6AF2542CA45D525117B9773C7DF97BEE /* brdb.c.h in Headers */,
+				FF848F77F72D9ABE1C6C7CD99847BEB1 /* config.h in Headers */,
+				250E4BCF0C80271D54ED524DC02B5D37 /* DHcell.h in Headers */,
+				47A424CC6CF08FB8711460286244A650 /* DHcell-Private.h in Headers */,
+				AE656A0E6DD8D504638DDD6E05BC7844 /* DHxlsReader.h in Headers */,
+				39A478AF16A3F076756FA2E1A89C354C /* endian.h in Headers */,
+				D02BC40103000551508B68604F8D8633 /* ole.h in Headers */,
+				A48BA1086BD3D7D9BEF1BD55D446D632 /* XLReader-umbrella.h in Headers */,
+				6D842C14EF841F2D706D9B472593AC56 /* xls.h in Headers */,
+				85D0C3454B681113F24A7D97E4C17ACE /* xlsstruct.h in Headers */,
+				1D31CB53FA65A413E9AAC2E205ED2F71 /* xlstool.h in Headers */,
+				BB4F3252E4D5350381C4DD866CCF7121 /* xlstypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,17 +342,17 @@
 /* Begin PBXNativeTarget section */
 		37B37BEB2EB69B9E27A9FFC510FEAE79 /* Pods-XLReader_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB991753C32A7D9C9FBC0D31F2570A1E /* Build configuration list for PBXNativeTarget "Pods-XLReader_Example" */;
+			buildConfigurationList = C2B6523FE587F42F8A7F228618EB5861 /* Build configuration list for PBXNativeTarget "Pods-XLReader_Example" */;
 			buildPhases = (
-				BEB2E3B6890B5A3B3DF1AC9B4632D975 /* Headers */,
-				17AF5B223E5E7B6EE949CDC58BC160D3 /* Sources */,
-				A143D501DCEB738C428AD1A2E1CCEAE3 /* Frameworks */,
-				ECDE3EF4563B9C27420E4961D5B34273 /* Resources */,
+				BB4C7AAFA9C7FDF2B86C0D6157155336 /* Headers */,
+				B51E4C1B534D2195786F38B2EAD5A38A /* Sources */,
+				BF28D0773D7669EE2638336DB021B3A2 /* Frameworks */,
+				DD6173AA785635585AC60A4467E865EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D5BB58DFA7C469A4226E2D770EE0BD35 /* PBXTargetDependency */,
+				186D1BFF2F1290D1B12DA33FDEE96413 /* PBXTargetDependency */,
 			);
 			name = "Pods-XLReader_Example";
 			productName = Pods_XLReader_Example;
@@ -361,12 +361,12 @@
 		};
 		8C34709ECDB0FAB6C7C1BE93A8213AEA /* XLReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6DF5F5A6C9F1B88C78B8A224111B76D /* Build configuration list for PBXNativeTarget "XLReader" */;
+			buildConfigurationList = 2BEDCF83459BB0A91959E8AE6F46C563 /* Build configuration list for PBXNativeTarget "XLReader" */;
 			buildPhases = (
-				0CC4AEBA777BD5FE66B39154D4F734A4 /* Headers */,
-				50810493F308982FF50F4C9A062CAAF7 /* Sources */,
-				327F184A47D37B32DE97B6EE9E1E3DC3 /* Frameworks */,
-				78E97C9AB0D24BF72E41E4412D3F48AE /* Resources */,
+				D62D76C12F59E486FA2C4C899C709459 /* Headers */,
+				7190C4E413C61DA856D6F592538E6DEF /* Sources */,
+				3CD93BD7C4C132B85F73682AA4E32144 /* Frameworks */,
+				6675947384D6E5A40B2E2C6827D5DE69 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -379,17 +379,17 @@
 		};
 		96071A9FC4AB05611D905A2E0E9CCF0C /* Pods-XLReader_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27E2BF6B5D36AEE94A2464E3EC9623AD /* Build configuration list for PBXNativeTarget "Pods-XLReader_Tests" */;
+			buildConfigurationList = 65D85FB97E5E764B6C1E143881B896F8 /* Build configuration list for PBXNativeTarget "Pods-XLReader_Tests" */;
 			buildPhases = (
-				B366820592B1FC70310A0CA48956298B /* Headers */,
-				31FA105B5AF0521D50A796F22A00C313 /* Sources */,
-				A0BDE6A4E43EA730FAE8DF81EF09715C /* Frameworks */,
-				80EEBBC05E31D5349D4506EBB3BBCB22 /* Resources */,
+				7CC10ADD6A9B1BBEF3B4B9FBB6870701 /* Headers */,
+				5ABEE050AABAF9CDB3B952333593BC92 /* Sources */,
+				43EBA9911A93B2DB8C1891EAF5589A6F /* Frameworks */,
+				D565EE75B19B67D0B70295636D104C06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BE59D6D73D6819AF7BFCD5A295A7FD2 /* PBXTargetDependency */,
+				C3C9A2073C2FCA23FED2726873C062E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-XLReader_Tests";
 			productName = Pods_XLReader_Tests;
@@ -402,8 +402,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -414,6 +414,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 936BA72AA67C34717068B07328821C92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -426,21 +428,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78E97C9AB0D24BF72E41E4412D3F48AE /* Resources */ = {
+		6675947384D6E5A40B2E2C6827D5DE69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EEBBC05E31D5349D4506EBB3BBCB22 /* Resources */ = {
+		D565EE75B19B67D0B70295636D104C06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECDE3EF4563B9C27420E4961D5B34273 /* Resources */ = {
+		DD6173AA785635585AC60A4467E865EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,124 +452,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17AF5B223E5E7B6EE949CDC58BC160D3 /* Sources */ = {
+		5ABEE050AABAF9CDB3B952333593BC92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4BC60C1D16CA236FF4048C877023AB /* Pods-XLReader_Example-dummy.m in Sources */,
+				6B8F042FBB7925CA32A4AAE131CAE02E /* Pods-XLReader_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31FA105B5AF0521D50A796F22A00C313 /* Sources */ = {
+		7190C4E413C61DA856D6F592538E6DEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AC44E227094573788C39AD50AB51BB /* Pods-XLReader_Tests-dummy.m in Sources */,
+				0B103C22624543AF8980BD384F72653A /* DHcell.m in Sources */,
+				A9BCC4636485B7AD4588340FD17D9702 /* DHxlsReader.m in Sources */,
+				5ABDDC672CDCDAE2A16DE2B4C5CFB28F /* endian.c in Sources */,
+				8715F6C7DF8538E66934AF5F717C7561 /* getopt.c in Sources */,
+				DE8CFEF846C72474E62DAAAA6592DE68 /* ole.c in Sources */,
+				7D5D0F8209796A80CEF10164D52CB6E6 /* XLReader-dummy.m in Sources */,
+				C2DEE41D57A9F785F0F9E3B19277DC0A /* xls.c in Sources */,
+				AC9EF2FE1A0EBE16C6D5476B467B8C1C /* xls2csv.c in Sources */,
+				279CBD1ECFADFD10860274A18814C5B4 /* xlstool.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50810493F308982FF50F4C9A062CAAF7 /* Sources */ = {
+		B51E4C1B534D2195786F38B2EAD5A38A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EFA6D8CAE6DCFEB6EC99495A45EB1F3 /* DHcell.m in Sources */,
-				8D196A84919955E91C59FE6B4D715DF9 /* DHxlsReader.m in Sources */,
-				294BB5993197F8CD5BA27F4912485892 /* endian.c in Sources */,
-				C5C0AF1D4D8B69AA7C5C0AD40F7E7CCF /* getopt.c in Sources */,
-				C6159BCB16F5CCD8EED80FE0BB89CECF /* ole.c in Sources */,
-				59F8447E7C062B8D58274ECE123C534B /* XLReader-dummy.m in Sources */,
-				FC4801735B30535010D1D299E0884ABF /* xls.c in Sources */,
-				232599CC0A3501FA6563399C999FCC5C /* xls2csv.c in Sources */,
-				A69CC335BD94D3F2D8DAE6A903CCD74A /* xlstool.c in Sources */,
+				99295367626AC7DF3FA268863B1A87EA /* Pods-XLReader_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BE59D6D73D6819AF7BFCD5A295A7FD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XLReader_Example";
-			target = 37B37BEB2EB69B9E27A9FFC510FEAE79 /* Pods-XLReader_Example */;
-			targetProxy = F4B3479BE64A78CB5D7DE66D9508F007 /* PBXContainerItemProxy */;
-		};
-		D5BB58DFA7C469A4226E2D770EE0BD35 /* PBXTargetDependency */ = {
+		186D1BFF2F1290D1B12DA33FDEE96413 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XLReader;
 			target = 8C34709ECDB0FAB6C7C1BE93A8213AEA /* XLReader */;
-			targetProxy = 9A5975C7B9E1CEF2A7F31D16B90B6726 /* PBXContainerItemProxy */;
+			targetProxy = 1D8244B0BA922FCA0A78AE6A94B74B0D /* PBXContainerItemProxy */;
+		};
+		C3C9A2073C2FCA23FED2726873C062E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XLReader_Example";
+			target = 37B37BEB2EB69B9E27A9FFC510FEAE79 /* Pods-XLReader_Example */;
+			targetProxy = FBC99E364566BD5D7E19789AABCFD0D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		150A49D31BCC9849D9277784E72B71C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2494A15BF38CB29EE1DFE7E500D04E4D /* Pods-XLReader_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Example/Pods-XLReader_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XLReader_Example/Pods-XLReader_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2B4F91B4FB2BC1D08AA198800D26243C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A3241ADBD929E8D9395B51C31C80155 /* XLReader.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XLReader/XLReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLReader/XLReader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XLReader/XLReader.modulemap";
-				PRODUCT_MODULE_NAME = XLReader;
-				PRODUCT_NAME = XLReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -634,10 +568,11 @@
 			};
 			name = Debug;
 		};
-		3E9ED3E9C386098CE13A6806FF5FF540 /* Debug */ = {
+		45F6142C51E84E25476851F8D1B523C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9040B89D7FA632B8DA9A7EBF2DD9E11 /* XLReader.debug.xcconfig */;
+			baseConfigurationReference = 266B604C890ACE71ABDD20C9A5885081 /* Pods-XLReader_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -648,23 +583,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XLReader/XLReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLReader/XLReader-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XLReader/XLReader.modulemap";
-				PRODUCT_MODULE_NAME = XLReader;
-				PRODUCT_NAME = XLReader;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,41 +667,7 @@
 			};
 			name = Release;
 		};
-		74C83E3136FD337DBD15D0BDCEF8FDAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 179BB8963566233E8E72A9B5A6078241 /* Pods-XLReader_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B5A3B48AC5E4529BEE8F91862F66E19 /* Debug */ = {
+		6562D13CAAA3D8FC6589A4E6AFC21BF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFDC9DDAC882A19B8A1DE3B24D05173C /* Pods-XLReader_Example.debug.xcconfig */;
 			buildSettings = {
@@ -777,6 +682,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Example/Pods-XLReader_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -796,9 +703,45 @@
 			};
 			name = Debug;
 		};
-		9829A06537BE5B2EC7F1B4B018969001 /* Release */ = {
+		84224631EF83E19386894BA754B7FC1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 266B604C890ACE71ABDD20C9A5885081 /* Pods-XLReader_Tests.release.xcconfig */;
+			baseConfigurationReference = E9040B89D7FA632B8DA9A7EBF2DD9E11 /* XLReader.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XLReader/XLReader-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XLReader/XLReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLReader/XLReader.modulemap";
+				PRODUCT_MODULE_NAME = XLReader;
+				PRODUCT_NAME = XLReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		864392A47B051D018BACCA807674ED92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179BB8963566233E8E72A9B5A6078241 /* Pods-XLReader_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -811,12 +754,87 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XLReader_Tests/Pods-XLReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ED0A0DF73F31D297470D772F89FB6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3241ADBD929E8D9395B51C31C80155 /* XLReader.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/XLReader/XLReader-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/XLReader/XLReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLReader/XLReader.modulemap";
+				PRODUCT_MODULE_NAME = XLReader;
+				PRODUCT_NAME = XLReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1F979FABFF48652057669CF6F66EB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2494A15BF38CB29EE1DFE7E500D04E4D /* Pods-XLReader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-XLReader_Example/Pods-XLReader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XLReader_Example/Pods-XLReader_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -834,11 +852,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27E2BF6B5D36AEE94A2464E3EC9623AD /* Build configuration list for PBXNativeTarget "Pods-XLReader_Tests" */ = {
+		2BEDCF83459BB0A91959E8AE6F46C563 /* Build configuration list for PBXNativeTarget "XLReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74C83E3136FD337DBD15D0BDCEF8FDAD /* Debug */,
-				9829A06537BE5B2EC7F1B4B018969001 /* Release */,
+				84224631EF83E19386894BA754B7FC1F /* Debug */,
+				8ED0A0DF73F31D297470D772F89FB6A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -852,20 +870,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6DF5F5A6C9F1B88C78B8A224111B76D /* Build configuration list for PBXNativeTarget "XLReader" */ = {
+		65D85FB97E5E764B6C1E143881B896F8 /* Build configuration list for PBXNativeTarget "Pods-XLReader_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E9ED3E9C386098CE13A6806FF5FF540 /* Debug */,
-				2B4F91B4FB2BC1D08AA198800D26243C /* Release */,
+				864392A47B051D018BACCA807674ED92 /* Debug */,
+				45F6142C51E84E25476851F8D1B523C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB991753C32A7D9C9FBC0D31F2570A1E /* Build configuration list for PBXNativeTarget "Pods-XLReader_Example" */ = {
+		C2B6523FE587F42F8A7F228618EB5861 /* Build configuration list for PBXNativeTarget "Pods-XLReader_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B5A3B48AC5E4529BEE8F91862F66E19 /* Debug */,
-				150A49D31BCC9849D9277784E72B71C7 /* Release */,
+				6562D13CAAA3D8FC6589A4E6AFC21BF9 /* Debug */,
+				B1F979FABFF48652057669CF6F66EB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
